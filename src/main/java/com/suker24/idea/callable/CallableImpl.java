@@ -16,7 +16,7 @@ public class CallableImpl implements Callable<String> {
   public String call() throws Exception {
     // 任务阻塞 1 秒
     Thread.sleep(1000);
-    return this.acceptStr + " append some chars and return it!";
+    return this.acceptStr + " append here some chars and return it!";
   }
 
 
